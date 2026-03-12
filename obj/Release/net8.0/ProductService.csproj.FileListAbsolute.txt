@@ -1,0 +1,6 @@
+C:\Users\PC\ProductService\obj\Release\net8.0\rpswa.dswa.cache.json
+C:\Users\PC\ProductService\obj\Release\net8.0\ProductService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\ProductService\obj\Release\net8.0\ProductService.AssemblyInfoInputs.cache
+C:\Users\PC\ProductService\obj\Release\net8.0\ProductService.AssemblyInfo.cs
+C:\Users\PC\ProductService\obj\Release\net8.0\ProductService.csproj.CoreCompileInputs.cache
+C:\Users\PC\ProductService\obj\Release\net8.0\ProductService.MvcApplicationPartsAssemblyInfo.cache

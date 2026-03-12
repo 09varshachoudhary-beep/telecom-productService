@@ -1,0 +1,9 @@
+C:\app\publish\ProductService.exe
+C:\app\publish\appsettings.Development.json
+C:\app\publish\appsettings.json
+C:\app\publish\ProductService.dll
+C:\app\publish\ProductService.deps.json
+C:\app\publish\ProductService.runtimeconfig.json
+C:\app\publish\ProductService.pdb
+C:\app\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\app\publish\Microsoft.OpenApi.dll
