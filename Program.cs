@@ -3,6 +3,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using ProductService.Data;
+using Azure.Identity;
+using Azure.Extensions.AspNetCore.Configuration.Secrets;
+
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,9 +19,18 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 //builder.Services.AddSwaggerGen();
 
-// Add DbContext
+// Load Key Vault
+var keyVaultUrl = new Uri("https://sqlconnstringtelecomrg.vault.azure.net//");
+builder.Configuration.AddAzureKeyVault(keyVaultUrl, new DefaultAzureCredential());
+
+// Use connection string from Key Vault
 builder.Services.AddDbContext<TelecomDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("TelecomDB")));
+    options.UseSqlServer(builder.Configuration["SQLConnStringTelecomRG"]));
+
+
+// Add DbContext
+// builder.Services.AddDbContext<TelecomDbContext>(options =>
+//     options.UseSqlServer(builder.Configuration.GetConnectionString("TelecomDB")));
 
 var app = builder.Build();
 

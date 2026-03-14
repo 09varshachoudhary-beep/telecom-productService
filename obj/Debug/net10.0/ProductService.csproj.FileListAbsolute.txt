@@ -156,3 +156,10 @@ C:\Users\PC\ProductService\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.D
 C:\Users\PC\ProductService\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\PC\ProductService\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\PC\ProductService\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PC\ProductService\bin\Debug\net10.0\publish\web.config
+C:\Users\PC\ProductService\bin\Debug\net10.0\publish\appsettings.Development.json
+C:\Users\PC\ProductService\bin\Debug\net10.0\publish\appsettings.json
+C:\Users\PC\ProductService\bin\Debug\net10.0\publish\ProductService.deps.json
+C:\Users\PC\ProductService\bin\Debug\net10.0\publish\ProductService.runtimeconfig.json
+C:\Users\PC\ProductService\bin\Debug\net10.0\publish\ProductService.staticwebassets.endpoints.json
+C:\Users\PC\ProductService\obj\Debug\net10.0\ProductService.sourcelink.json
